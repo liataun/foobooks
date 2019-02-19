@@ -1,3 +1,3 @@
 <?php
-var_dump($_GET);
-echo 'You searched for '.$_GET['searchTerm'];
+var_dump($_POST);
+echo 'You searched for '.$_POST['searchTerm'];
